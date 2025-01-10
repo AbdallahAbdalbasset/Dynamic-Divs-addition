@@ -1,0 +1,34 @@
+#inputContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#input{
+    background-color: aquamarine;
+}
+
+#divs{
+    display: flex;
+    background-color: rgb(126, 126, 174);
+    padding: 25px;
+    border-radius: 50px;
+    align-content: start;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(85, 85, 225);
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#card:hover{
+    transform: scale(1.1);
+}
