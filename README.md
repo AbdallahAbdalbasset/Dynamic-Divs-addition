@@ -15,4 +15,4 @@ This project is a simple web application that allows users to dynamically create
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/AbdallahAbdalbasset/Dynamic-Divs-addition.git
