@@ -7,6 +7,7 @@ This project is a simple web application that allows users to dynamically create
 - Users can enter their name in a text field.
 - Users can upload an image file (e.g., `.jpg`, `.png`).
 - A new card is dynamically created with the user's name and the uploaded image.
+- Each card includes a red "-" button that allows users to delete the card.
 - Cards are displayed in a styled container.
 
 ## Usage
