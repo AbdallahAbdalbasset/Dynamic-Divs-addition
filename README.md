@@ -11,9 +11,6 @@ This project is a simple web application that allows users to dynamically create
 
 ## Usage
 
-### Live Demo
-You can view the live version of the project [here](#).
-
 ### Local Setup
 
 1. Clone the repository to your local machine:
