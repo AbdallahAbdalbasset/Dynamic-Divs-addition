@@ -11,24 +11,43 @@
     display: flex;
     background-color: rgb(126, 126, 174);
     padding: 25px;
-    border-radius: 50px;
+    border-radius: 20px;
     align-content: start;
     height: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#card{
+.card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
     background-color: rgb(85, 85, 225);
-    border-radius: 50px;
+    border-radius: 40px;
     transition: transform 0.3s ease-in-out;
 }
 
-#card:hover{
-    transform: scale(1.1);
+.card:hover{
+    transform: scale(1.05);
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.deleteButton:hover{
+    background-color: darkred;
+    transform: scale(1.2);
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
 }
